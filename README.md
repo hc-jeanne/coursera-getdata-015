@@ -30,14 +30,16 @@ To create one R script called run_analysis.R that does the following.
 
 Directory and files structure:
 
-unzip the source data to the [work directory] :
+unzip the source data to the [working directory] :
 
-- [work directory]/run_analysis.R
-- [work directory]/UCI HAR Dataset/
+- [working directory]/run_analysis.R
+- [working directory]/UCI HAR Dataset/
 
 
 Run the script :
 
-    > source("run_analysis.R") # the final data set assign to x5
-    > x5[1:5, 1:5] # it's long and wide
+    > source("run_analysis.R")
+    > tidy <- runAnalysis()
+    > tidy[1:5, 1:5] # it's long and wide
+    > write.table(tidy, file="dataset.txt", quote = FALSE, row.names=FALSE) # save to a text file
 
