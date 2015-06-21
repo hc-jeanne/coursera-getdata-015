@@ -9,12 +9,13 @@ subject : subjectID
 activity : activity label
 
 	Each person performed six activities wearing a smartphone (Samsung Galaxy S II) on the waist.
-	- WALKING
-	- WALKING_UPSTAIRS
-	- WALKING_DOWNSTAIRS
-	- STANDING
-	- SITTING
-	- LAYING
+	In the original data set , data type is integer.
+	- WALKING (1 in original data set)
+	- WALKING_UPSTAIRS (2 in original data set)
+	- WALKING_DOWNSTAIRS (3 in original data set)
+	- SITTING (4 in original data set)
+	- STANDING (5 in original data set)
+	- LAYING (6 in original data set)
 
 
 columns 3:81 : features
